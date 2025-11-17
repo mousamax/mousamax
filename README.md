@@ -1,58 +1,94 @@
-# Mousa's GitHub Portfolio 🌟
+# 👋 Hi, I'm Mousa Abdelmaksoud
 
-## 👋 About Me  
-Hi, I’m Mousa! I’m passionate about **entrepreneurship**, **innovation**, and building solutions that create meaningful impact. With a background in software engineering, leadership, and startup development, I thrive at the intersection of technology and problem-solving.  
-
-I’ve co-founded and led innovative projects like **Niowell**, a wellness platform, and I’m currently working on **familymind**, an AI-powered platform designed to enhance communication and coordination among families. My work is deeply rooted in leveraging cutting-edge technologies to tackle complex challenges while fostering collaboration and personal growth.  
+**Co-founder & CTO at [familymind.ai](https://familymind.ai)**  
+Building proactive, human-centered AI systems that understand real-life context and act before you're overwhelmed.
 
 ---
 
-## 🌟 What I’m Working On  
-🔭 **familymind.ai**  
-As Co-Founder, I’m building an AI-driven "1-to-family" chatbot platform that enhances communication and coordination among family members. It integrates tools for scheduling, task management, and emotional support using advanced LLMs, proprietary algorithms, and AWS technologies.
+## 🚀 What I'm Building
+
+### **familymind — The AI Coach for Families**  
+At familymind.ai, we’re rethinking how families collaborate, communicate, and support each other.  
+I lead the AI, product architecture, and engineering that power our:
+
+- 🧠 **Multi-agent AI coach** that understands family dynamics  
+- 🤝 **Collaboration & fairness**, helping families share responsibilities  
+- 💬 **Integrations with your ecosystem; Outlook, Apple, Google, and more**  
+- 🧘‍♀️ **Mental-load reduction through proactive assistance**  
+- 📉 **Conflict reduction, healthier routines, and more time for what matters**  
+
+We believe that if we can empower families, the building block of society, the positive impact reverberates far beyond the household.
 
 ---
 
-## 🌱 What I’m Learning  
-- **Multi-AI Agent Systems**: Exploring how intelligent systems can work collaboratively.  
-- **FlutterFlow**: Leveraging no-code tools for rapid prototyping and app development.  
-- **AWS**: Mastering cloud infrastructure to scale applications effectively.  
+## 🧠 My Research: Proactive AI Assistants
+
+I completed my **M.Sc. in Computer Science at TU Munich (Social Computing Group)**, where I explored:
+
+### **Proactive AI agents**  
+AI systems that:
+- Anticipate user needs based on situational context  
+- Detect opportune moments for action  
+- Act *before* the user asks  
+
+A step beyond traditional reactive assistants.
+
+### **Generative Simulation Platform**  
+To test proactive agents safely and scalably, I built a **simulation environment** that generates open-world scenarios.  
+It enabled:
+- Low-cost, repeatable evaluation  
+- Complex contextual testing  
+- Faster iteration without human experiments  
+
+This research directly informs familymind’s proactive AI architecture.
 
 ---
 
-## 🤝 Collaboration  
-👯 I’m looking to collaborate on:  
-- AI-powered applications that solve real-world problems.  
-- Innovative tools for improving family life and wellness.  
-- Multi-agent system research or related open-source projects.  
+## 🛠️ Tech Stack & Tools I Work With
+
+**AI & Backend**  
+Python • FastAPI • PydanticAI • Graphs/LLM orchestration  
+Multi-agent systems • Generative simulations  
+
+**Systems & Infrastructure**  
+Docker • AWS • RabbitMQ • PostgreSQL • Redis • Firebase
+
+**Frontend / Product**  
+Web: Next.js • TypeScript • React
+Mobile: Flutter • Dart
+Designing AI-first UX with minimal UI friction  
 
 ---
 
-## 💬 Ask Me About  
-- **Building AI-powered platforms**: From concept to implementation.  
-- **Entrepreneurship**: Lessons from founding and scaling startups.  
-- **Team leadership**: Managing cross-functional teams and fostering collaboration.  
-- **familymind**: Learn about our vision to redefine family communication.  
+## 🧩 Experience
+
+- **familymind.ai** – Multi-agent AI coach for families  
+- **Proactive AI Research** – Anticipatory agent design + simulation environment  
+- **AI Engineer at JetBrains** – AI Code Completion & developer tooling  
+- **Software Engineer at Siemens** – Computer Security automation
+- **Co-Founder & CTO of Niowell**, a wellness startup.  
+
+(I’ll keep expanding my public repos as we open-source components.)
 
 ---
 
-## 📫 How to Reach Me  
+## 🔭 What I'm Thinking About
+
+- Proactive agent architectures  
+- Context-aware reasoning and temporal decision-making  
+- Reducing UI through intelligent autonomy  
+
+---
+
+## 📫 Connect with ME
 - **Email**: mousa@familymind.ai 
-- **LinkedIn**: [linkedin.com/in/mousa](https://www.linkedin.com/in/mousa-abdelmaksoud/)
-
----
-
-## 🏆 Achievements  
-- AI Engineer at **JetBrains**, streamlined the AI course generation pipeline for JetBrains Academy.
-- Co-Founder & CTO of **Niowell**, a wellness startup.  
-- Software Engineer at **Siemens**, developed a cybersecurity evaluation platform.  
-- Volunteered at **EU-Startups** event in Malta.  
+- **LinkedIn**: [linkedin.com/in/mousa](https://www.linkedin.com/in/mousa-abdelmaksoud)
 
 ---
 
 ## ✨ Fun Facts  
-- I’m multilingual: Fluent in English, French, Arabic, and intermediate in German.  
-- I love animals, especially cats, dogs, and horses.  
+- I’m multilingual: Fluent in English, Arabic, and intermediate in German.  
+- I love animals, especially cats, dogs, and horses. I also do pet sittings from time to time :)  
 - When I’m not working, you’ll find me exploring the intersection of **philosophy** and **technology** or volunteering at tech events.  
 
 Let’s connect and create something impactful together! 🚀
