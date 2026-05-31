@@ -32,9 +32,7 @@ The bottleneck for AI value has moved from model capability to context delivery.
 
 The first is **proactive AI** — agents that close the context loop themselves, anticipating what a user needs based on signals already available, instead of waiting for the user to type the right prompt. The next class of AI products won't be chat windows; they'll be agents that turn repeated interactions into background workflows the user never has to start.
 
-The second is **structured knowledge for AI**. Inside companies sitting on thousands of documents, the AI is only as useful as the context it can assemble — and most knowledge systems were designed for human browsing, not for an agent. Software engineering already solved how to organize complexity so a developer lands in the right context: repositories, modules, references, dependencies. I think the next generation of organizational knowledge systems will borrow from that lineage rather than from the wiki one — and that's where the real unlock for AI inside companies will come from.
-
-Most of what I build over the next decade will sit at the intersection of those two threads.
+The second is **structured knowledge for AI**. Inside companies sitting on thousands of documents, the AI is only as useful as the context it can assemble. Most knowledge systems were designed for human browsing, not for an agent. Software engineering already solved how to organize complex file bases so each developer has the right context: repositories, modules, references, dependencies. I think the next generation of organizational knowledge systems will borrow many concepts from software engineering practises. 
 
 ---
 
