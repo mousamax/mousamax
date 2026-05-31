@@ -1,6 +1,6 @@
 # Mousa Abdelmaksoud
 
-Co-founder & CTO at **[familymind.ai](https://familymind.ai)** — building the AI operating system for families.
+Co-founder & CTO at **[familymind.ai](https://familymind.ai)** — automating repeating pain points around family organisation with an AI operating system for families.
 M.Sc. Computer Science, TU Munich. Based in Munich.
 
 I ship products to real users with real feedback loops, and I've been doing it since I was 19.
@@ -9,47 +9,44 @@ I ship products to real users with real feedback loops, and I've been doing it s
 
 ## What I'm building now
 
-**familymind** — one shared workspace where a family's calendars, tasks, and a proactive AI assistant live together. The AI doesn't wait to be prompted; it acts on context and signals, reducing mental load and preventing conflicts.
+**familymind** — one shared workspace where a family's calendars, tasks, and a proactive AI assistant live together. The AI doesn't wait to be prompted; it acts on context and signals.
 
-A few engineering numbers I'm willing to be drilled on:
+Where the company is today:
 
-- **23% → 36.8% acceptance rate** on proactive suggestions, measured on a 1,260-suggestion sample. The lift came from context engineering on top of GPT-OSS 120B served via Cerebras — encoding location, weather, holidays, bridge days, and calendar availability into the agent's window.
-- **~10× p50 latency reduction** on agent-turn context assembly, by replacing repeated upstream API calls for context variables with a cache layer plus invalidation strategy.
-- **2,300 users**, **7% week-over-week organic growth**, **€180K non-dilutive** (EXIST-Gründerstipendium, EXIST Women, AI Nation). No paid acquisition.
-- Recognized as one of the **Top 4 Social Impact Startups in Germany** by DPS / UnternehmerTUM (2024).
+- **2,300 users** and **7% week-over-week organic growth**, with zero paid acquisition.
+- **€180K raised non-dilutive** through EXIST-Gründerstipendium, EXIST Women, and AI Nation. No equity given up.
+- Named **one of the Top 4 Social Impact Startups in Germany** by the [Social Impact Republic](https://www.social-impact-republic.org/), 2024.
 
-I lead a team of 5 — two engineers report to me. I own the architecture: a polyglot stack (Spring Boot API gateway, FastAPI AI service), a multi-agent system (chat, proactive, utilities, knowledge maintenance), an eval loop driven by accept / reject / ignore signal, and a Postgres-backed family knowledge graph maintained by an autonomous agent with supersession and temporal-decay semantics.
+Where the engineering is today:
 
----
-
-## What I worked on before familymind
-
-**AI Engineer at JetBrains** (Jun 2024 – Jul 2025, part-time, two product teams)
-At JetBrains Academy, I shipped an end-to-end AI course-generation system to the curriculum team — a multi-agent pipeline producing module skeletons plus AST-based deterministic topic extraction — cutting their time-to-ship a new module by ~50%. Single-engineer ownership of a production system. On the AI Coding Assistant team, I ran the eval program comparing Claude Sonnet 4.6, OpenAI frontier models, and JetBrains' in-house code completion model, and built the Next-Edit-Suggestion baseline that set the bar for the internal training team to beat. A/B testing showed developers preferred speed over marginal accuracy gains — a finding that shaped product direction.
-
-**Software Engineer at Siemens** (Dec 2023 – May 2024, Cybersecurity Department)
-I pitched myself as a founder in the interview and walked out with product ownership of a research-stage internal DevSecOps platform instead of a generic intern bucket. I shipped it to production in 6 months: Vue 2 → Vue 3, JavaScript → TypeScript, Microsoft Entra ID integration, completed the Django backend, and built an API-key feature so developer teams could plug the security pipeline (Bandit, Semgrep, Gitleaks) into their own CI/CD. Adopted by the department as a working MVP.
-
-**Co-founder & CTO at Niowell** (Feb – Oct 2023)
-A two-sided marketplace for mental-health and wellness professionals, with a B2B-HR layer for employers. I owned engineering: React + TypeScript frontend, Spring Boot microservices, Stripe, GitLab CI/CD, Docker. Onboarded ~120 verified providers, reached ~900 users, launched in Spain. I exited after eight months over structural co-founder misalignment — and used what I learned to choose Munich.
+- Increased the proactive AI's suggestion-acceptance rate from **23% to 36.8%**, a **60% relative improvement** measured over 1,260 production suggestions, by engineering richer context (location, weather, holidays, bridge days, calendar availability) on top of GPT-OSS 120B served via Cerebras.
+- Cut agent-response latency by **~10× at p50** by replacing repeated upstream API calls with a cache layer and invalidation strategy.
+- Designed and own the full system: a polyglot stack (Spring Boot API gateway, FastAPI AI service), a mulit-agent system (chat, proactive, utilities, knowledge maintenance), an eval loop driven by accept / reject / ignore signal, and a Postgres-backed family knowledge graph maintained by an autonomous agent that handles supersession and temporal decay.
+- Lead a team of 5; two engineers report to me directly.
 
 ---
 
-## Research
+## How I see the future I'm building toward
 
-**M.Sc. thesis, TU Munich — Social Computing Group, Entrepreneurial Masterclass track.**
-Grade 1.0 (German top mark), graduated with honors.
+The bottleneck for AI value has moved from model capability to context delivery. Frontier models are no longer the constraint; getting the right context to them at the right moment is. I think that reframes two of the most interesting problems in the field.
 
-The thesis defined principles, tunable design variables, and a simulation harness for **proactive AI in personal assistance** — investigating how an AI assistant can deliver value without an explicit prompt. Motivated by a real retention problem at familymind: users dropped because the AI was reactive. The contributions shipped back into the product. The category — context- and signal-driven agents — is now becoming the dominant pattern in code completion, NES, and ambient assistants.
+The first is **proactive AI** — agents that close the context loop themselves, anticipating what a user needs based on signals already available, instead of waiting for the user to type the right prompt. The next class of AI products won't be chat windows; they'll be agents that turn repeated interactions into background workflows the user never has to start.
 
-**B.Sc. thesis, Cairo University — Siemens-sponsored.**
-Active-learning + uncertainty sampling on a transformer for customer-support ticket classification. The methodological choice attacked Siemens' actual constraint, labeling cost.
+The second is **structured knowledge for AI**. Inside companies sitting on thousands of documents, the AI is only as useful as the context it can assemble — and most knowledge systems were designed for human browsing, not for an agent. Software engineering already solved how to organize complexity so a developer lands in the right context: repositories, modules, references, dependencies. I think the next generation of organizational knowledge systems will borrow from that lineage rather than from the wiki one — and that's where the real unlock for AI inside companies will come from.
+
+Most of what I build over the next decade will sit at the intersection of those two threads.
 
 ---
 
 ## How I work
 
-I find a real user with a real problem, sell the dream before having the means, learn whatever adjacent discipline is required, ship to feedback, watch the user use it, iterate. That loop is the same one I ran at 19 when I built and shipped an ERP / inventory / accounting system to my dad's retail business (I studied double-entry accounting next to my CS degree to do it — the system is still running, unmaintained, today), and at 21 when I orchestrated a sponsoring company, a senior mentor I cold-recruited from LinkedIn, 12 selected students from 50 applicants, and the university into a self-invented VR/AR internship that the sponsor then used to land a B2B deal in Singapore.
+I find a real user with a real problem, sell the dream before having the means, learn whatever adjacent discipline is required, ship to feedback, watch the user use it, iterate. That loop is the same one I ran at 19 when I built and shipped an ERP / inventory / accounting system to my dad's retail business (I studied double-entry accounting next to my CS degree to do it, the system is still running, unmaintained, today), and at 21 when I orchestrated a sponsoring company, a senior mentor I cold-recruited from LinkedIn, 12 selected students from 50 applicants, and the university into a self-invented VR/AR internship I managed and the sponsor then used the projects delivered to land a B2B deal in Singapore.
+
+---
+
+## About the repos here
+
+Most of my public repos are from school or earlier — they're history, not current work. The substantive engineering of the last few years is closed-source at familymind, JetBrains, and Siemens. Happy to walk through any of it in detail; ping me.
 
 ---
 
@@ -59,10 +56,10 @@ Python, FastAPI, Pydantic AI, multi-agent orchestration, eval pipelines, prompt 
 
 ---
 
-## Reach me
+## Talk to me about
+
+Proactive agents and GenUI. Knowledge graphs and context systems for personal and organizational AI. Founder hiring, technical co-founder questions, and what it's like building a company in the German ecosystem.
 
 - Email — [mousa@familymind.ai](mailto:mousa@familymind.ai)
 - LinkedIn — [linkedin.com/in/mousa-abdelmaksoud](https://www.linkedin.com/in/mousa-abdelmaksoud/)
 - familymind — [familymind.ai](https://familymind.ai)
-
-Best path in: a specific problem you're working on. I'd rather argue about that than read another generic intro.
