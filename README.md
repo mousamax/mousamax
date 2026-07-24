@@ -1,6 +1,6 @@
 # Mousa Abdelmaksoud
 
-Co-founder & CTO at **[familymind.ai](https://familymind.ai)** — automating repeating pain points around family organisation with an AI operating system for families.
+Co-founder & CTO at **[familymind.ai](https://familymind.ai)** — AI workspace that helps families operate as a team.
 M.Sc. Computer Science, TU Munich. Based in Munich.
 
 I ship products to real users with real feedback loops, and I've been doing it since I was 19.
@@ -13,7 +13,7 @@ I ship products to real users with real feedback loops, and I've been doing it s
 
 Where the company is today:
 
-- **3000 users** and **7% week-over-week organic growth**, with zero paid acquisition.
+- **3000+ users** and **7% week-over-week organic growth**, with zero paid acquisition.
 - **€180K raised non-dilutive** through EXIST-Gründerstipendium, EXIST Women, and AI Nation. No equity given up.
 - Named **one of the Top 4 Social Impact Startups in Germany** by the [Social Impact Republic](https://www.social-impact-republic.org/), 2024.
 
